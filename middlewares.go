@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	l "git.dar.kz/dareco-go/logger"
-	"git.dar.kz/dareco-go/utils/jwt"
+	l "github.com/bolatik/golang-libs-logger"
+	"github.com/bolatik/golang-libs-jwt"
 )
 
 var errSys = &ErrorSystem{"ACL", 20}
