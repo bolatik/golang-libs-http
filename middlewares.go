@@ -12,7 +12,7 @@ import (
 	"time"
 
 	l "github.com/bolatik/golang-libs-logger"
-	"github.com/bolatik/golang-libs-jwt"
+	"github.com/bolatik/golang-libs-utils-jwt"
 )
 
 var errSys = &ErrorSystem{"ACL", 20}
